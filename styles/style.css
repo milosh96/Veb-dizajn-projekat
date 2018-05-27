@@ -1,0 +1,216 @@
+body {
+    height: 100%;
+    font-family: 'Oswald';
+}
+
+
+.wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -273px;
+  }
+
+.push {
+    height: 50px;
+  }
+
+nav {
+    text-transform: uppercase;
+}
+
+h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+h3 a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+.navigacioni {
+    font-weight: 600;
+    font-size: 20;
+}
+
+.breadcrumb {
+    background-color: transparent !important;
+    text-transform: uppercase;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.breadcrumb a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: -1px;
+}
+
+.dropdown-item:hover {
+    background-color: lightgrey !important;
+}
+
+.dropdown-menu {
+    border: 0 !important;
+}
+
+.dropdown-item {
+    font-weight: 600 !important;
+}
+
+footer a.social {
+    font-size: 22px; line-height: 1.5;
+    color: #fff; 
+    background-color: transparent;
+	margin-left: 10px;
+	border: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+header {
+    padding: 0;
+}
+
+header a.social {
+    font-size: 22px; line-height: 1.5;
+    color: #000; 
+    background-color: transparent;
+	margin-left: 10px;
+	border: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+a.social:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+.lang {
+    -webkit-box-shadow: inset 0px 0px 0px 2px #fff;
+    box-shadow: inset 0px 0px 0px 2px #fff;
+	text-indent: -9999px;
+	opacity: .4;
+}
+
+.lang:hover {
+    opacity: 1;
+}
+
+.banners {
+    text-transform: uppercase;
+    color: white;
+    margin-top: 10px;
+}
+
+.banner {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.banner:hover {
+    -webkit-filter: none;
+    filter: none;
+}
+
+.banner-txt {
+    text-align: center;
+}
+
+.footer-links {
+    color: gray;
+    margin-top: 10px;
+}
+
+.footer-links h3 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-links a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright {
+    padding-bottom: 20px;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.subheading {
+    color: gray;
+    font-weight: bold;
+    margin: 0;
+}
+
+.content-text {
+    text-align: justify;
+}
+
+.date-btn {
+	width: 54px; height: 65px;
+	padding: 10px 5px;
+ 	color: #fff;
+ 	font-size: 18px;
+ 	text-transform: uppercase;
+ 	z-index: 101; position: relative;
+ 	text-align: center;
+ 	overflow: hidden;
+ 	background-color: #000;
+}
+
+.date { 
+    display: inline-table;
+	padding: 5px 10px;
+	color: #fff; font-size: 18px;
+	text-transform: uppercase;
+	background-color: #000;
+}
+
+.sortBtn {
+    text-transform: uppercase;
+}
+
+.sortBtn:hover {
+    background-color: gray;
+}
+
+#containerFilms a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: black;
+}
+
+#containerFilms a:hover {
+    color: gray;
+}
+  
+@media (min-width: 768px) {
+ .navbar-nav.navbar-center {
+   position: absolute;
+   left: 50%;
+   transform: translatex(-50%);
+  }
+}
